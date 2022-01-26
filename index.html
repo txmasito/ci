@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Leandro Xavier Marcelo Supanta</title>
+  </head>
+  <body>
+    <img src="/assets/Logo.svg" alt="logo" class="logo" />
+    <img src="/assets/xd.svg" alt="signo" class="signo" />
+    <textarea
+      name="message"
+      id="addText"
+      placeholder="Ingrese el texto aquí"
+      class="textarea"
+    ></textarea>
+
+    <p class="parrafo">Solo letras minúsculas y sin acentos</p>
+    <div class="card__left">
+      <button class="button button--blue" id="encrypt" type="button">
+        Encriptar
+      </button>
+      <button class="button button--dude" id="decrypt" type="button">
+        Desencriptar
+      </button>
+    </div>
+    <div class="card__right">
+      <p id="encryptedMessage" class="encryptedMessage"></p>
+      <button class="button button--copy" id="copy" type="button">
+        Copiar
+      </button>
+    </div>
+
+    <script src="/index-dom.js" type="module"></script>
+  </body>
+</html>

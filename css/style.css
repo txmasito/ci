@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color-button: #0a3871;
+  --text-color: #fff;
+}
+
+body {
+  background-color: #f3f5fc;
+  font-size: 1rem;
+  overflow: hidden;
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+.parrafo {
+  position: absolute;
+  left: 358px;
+  bottom: 150px;
+  font-size: 0.8rem;
+  color: #495057;
+  opacity: 0.8;
+}
+
+.signo {
+  position: absolute;
+  left: 335px;
+  bottom: 163px;
+}
+
+.encryptedMessage {
+  font-size: 1.5rem;
+}
+
+.textarea {
+  position: absolute;
+  background-color: #f3f5fc;
+  color: #666;
+  padding: 1em;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
+  font-size: 32px;
+  line-height: 1.4;
+  width: 860px;
+  height: 550px;
+  resize: none;
+  left: 340px;
+  top: 150px;
+  font-family: "Inter";
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  left: 84px;
+}
+
+.card__form > * {
+  padding: 0.5rem;
+  margin-top: 7rem;
+  margin-left: 10rem;
+  display: block;
+  width: 45%;
+}
+
+.card__right {
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 857px;
+  right: 100px;
+  background-color: #fff;
+  top: 0;
+  margin: 40px 40px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  border-radius: 2em;
+}
+
+.card__left {
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 300px;
+  left: 0;
+  bottom: 0;
+  margin: 40px 250px;
+  padding: 40px;
+  align-items: flex-end;
+  border-radius: 2em;
+}
+
+.button {
+  border-radius: 0.8em;
+  padding: 1.5em 10em;
+  border: 1px solid var(--bg-color-button);
+  background-color: transparent;
+  color: var(--bg-color-button);
+  font-size: 1rem;
+}
+
+.button--blue {
+  background-color: var(--bg-color-button);
+  color: var(--text-color);
+}
+
+.button--blue,
+.button--dude {
+  position: relative;
+  margin-left: 50px;
+}
